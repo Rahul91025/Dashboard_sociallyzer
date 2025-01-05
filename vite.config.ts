@@ -15,6 +15,7 @@ export default defineConfig({
   build: {
     outDir: "dist", // The output directory for production build (adjust as needed)
     sourcemap: true, // Optional: Useful for debugging the production build
+    chunkSizeWarningLimit: 2000, // Set the chunk size limit to 2000 KB (default is 500 KB)
   },
   define: {
     "process.env": {}, // To handle environment variables in production
