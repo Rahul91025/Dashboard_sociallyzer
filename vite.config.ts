@@ -8,7 +8,7 @@ export default defineConfig({
     exclude: ["lucide-react"], // Ensures 'lucide-react' is not pre-bundled by Vite
   },
   server: {
-    port: 3000, // Optional: Adjust this port if necessary (Render typically uses 3000)
+    port: 5000, // Optional: Adjust this port if necessary (Render typically uses 3000)
     host: "0.0.0.0", // Make sure the server is accessible externally
     strictPort: true, // Ensures the port is strictly 3000
   },
